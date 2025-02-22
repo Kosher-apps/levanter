@@ -25,13 +25,13 @@
   "plugins": {
     "common": {
       "reply_to_message": "Reply to a message",
-      "not_admin": "I'm not admin.",
-      "reply_to_image": "Reply to a image",
+      "not_admin": "אני לא מנהל",
+      "reply_to_image": "הגב לתמונה",
       "update": "_Settings updated successfully! Your preferences have been saved and are now active._"
     },
     "menu": {
       "help": "```╭────────────────╮\n      ʟᴇᴠᴀɴᴛᴇʀ\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
-      "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
+      "menu": "```╭═══ הבוט שלי ═══⊷\n┃❃╭──────────────\n┃❃│ קידומת : {0}\n┃❃│ משתמש : {1}\n┃❃│ זמן פעולה : {2}\n┃❃│ ימים : {3}\n┃❃│ Date : {4}\n┃❃│ גרסה : {5}\n┃❃│ תוספים : {6}\n┃❃│ Ram : {7}\n┃❃│ זמן פעולה : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```"
     },
     "afk": {
       "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk I am busy* Last seen #lastseen ago\n- Sending a message automatically removes AFK status\n- Disable AFK: *afk off*",
@@ -39,7 +39,7 @@
       "desc": "Set AFK (Away From Keyboard) status"
     },
     "alive": {
-      "default": "I'm alive\nUptime : #uptime",
+      "default": "אני בחיים\nזמן פעולה : #uptime",
       "desc": "Display the bot's alive status message with optional custom text."
     },
     "antifake": {
@@ -54,10 +54,10 @@
       "disable": "_Antilink is already disabled._",
       "antilink_notset": "Antilink has not been configured.",
       "status": "Antilink is now *{0}*.",
-      "info": "> Antilink Status: {0}\n*Allowed URLs:* {1}\n *Action :* {2}",
+      "info": "> סטטוס אנטי קישורים: {0}\n*כתובות מותרות:* {1}\n *פעולה :* {2}",
       "action_invalid": "*Invalid action specified.*",
-      "action_update": "Antilink action updated to: *{0}*",
-      "update": "> Antilink Updated\n*Allowed:* {0}\n*Not Allowed:* {1}",
+      "action_update": "פעולת אנטי קישור עודכנה ל: *{0}*",
+      "update": "> אנטי קישור עודכן\n*כתובות מותרות:* {0}\n*כתובות אסורות:* {1}",
       "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink info - View current settings\n- antilink whatsapp.com - Allow specific URLs\n- antilink on | off - Enable/Disable antilink\n- antilink action/<kick | warn | null> - Set action for link"
     },
     "antiword": {
