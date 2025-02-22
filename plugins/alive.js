@@ -2,7 +2,7 @@ const { bot, aliveMessage, lang } = require('../lib/')
 
 bot(
   {
-    pattern: 'alive ?(.*)',
+    pattern: 'סטטוס ?(.*)',
     desc: lang.plugins.alive.desc,
     type: 'misc',
   },
